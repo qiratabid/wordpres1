@@ -10,14 +10,32 @@
    <p>Write a program which checks different numbers equivalent to a variable and gives number as output. Perform it using ifelse and switch case.</p>
     <?php
 	$number=2;
-	if($number==1)
-	  echo "one";
-	  else if($number==2)
-	 echo "two";
-	  else if($number==3)
-	echo "three";
-	  else
-	  echo "number not found";
+	if($number==1) // first condition if number is 1
+	  echo "one"; // output one
+	  else if($number==2)  // 2nd condition if number is 2
+	 echo "two";             //output two
+	  else if($number==3)   //checking condition if number is 3
+	echo "three";             //output is three 
+	  else                    //else if conditions are not true
+	  echo "number not found";  //output number not found
+?>git config --global user.email "qiratabid
+<p>switch case program in php</p>
+<?php
+$Number = 2;
+
+switch ($Number){  //passing a variable to switch statement
+  case 1:    //check if $Number is 1
+    echo "one"; //output is one
+    break;  //break if condition is true
+  case 2:   //check if $Number is 2
+    echo "Two"; //output TWO
+    break;  //break if condition is true
+  case 3:  //check if number is 3
+    echo "three";  //output is three
+    break;    // break
+  default:  // if all cases are wrong then default statement run
+    echo "number not found"; //output number not found
+}
 ?>
     
 </body>
